@@ -9,7 +9,7 @@ class App extends React.Component {
       <>
         <div>
           <Header />
-          <Main />
+          <main><Main /></main> 
           <Footer/>
         </div>   
       </>
