@@ -15,18 +15,21 @@ class Main extends React.Component {
           <Row>
             
             {arryBeast.map(item =>{
-              return <HornedBeasts
-                image_url={item.image_url}
-                title={item.title}
-                description={item.description}
-              />
+              return( <Col> 
+                <HornedBeasts
+                  image_url={item.image_url}
+                  title={item.title}
+                  description={item.description}
+                />
+                </Col>)
+             
             })}
 
             
           </Row>
         </Container>
         
-      
+            
 
       </div>
     )
