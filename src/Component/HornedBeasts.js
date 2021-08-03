@@ -26,7 +26,9 @@ import { Card} from 'react-bootstrap'
       
    
         <Card style={{ width: '18rem' ,border:'2px dashed red',alignItems:'center',height:'70vh',margin:'1rem '}}>
-        <Card.Img style={{ width: '16rem',height:'40vh' }} variant="top" src={this.props.imageUrl} alt={this.props.title} onClick={()=>this.raiseClicks()}/>
+        <Card.Img style={{ width: '16rem',height:'40vh' }} 
+        variant="top" src={this.props.image_url}
+         alt={this.props.title} onClick={()=>this.raiseClicks()}/>
         <Card.Body>
           <Card.Title>{this.props.title} </Card.Title>
           <Card.Text>
