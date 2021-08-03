@@ -10,10 +10,10 @@ class Main extends React.Component {
     let arryBeast = data;
     return (
       <div>
-        {
+        
         <Container fluid>
           <Row>
-            <Col>
+            
             {arryBeast.map(item =>{
               return <HornedBeasts
                 image_url={item.image_url}
@@ -22,12 +22,12 @@ class Main extends React.Component {
               />
             })}
 
-            </Col>
+            
           </Row>
         </Container>
-        }
+        
       
-      
+
       </div>
     )
   }
