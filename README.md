@@ -89,3 +89,12 @@ Start time: 3pm
 Finish time: 4pm
 
 Actual time needed to complete: 1 houer
+
+## feature [3] use display modal
+Estimate of time needed to complete: 3 houer
+
+Start time: 2pm
+
+Finish time: 4pm
+
+Actual time needed to complete: 2 houer
