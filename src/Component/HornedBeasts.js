@@ -48,7 +48,7 @@ import { Card,Button} from 'react-bootstrap'
 
           </Card.Text>
           <Button onClick={()=>this.raiseClicks()}>like!</Button>
-          <p>number of clicks are {this.state.click}</p>
+          <span> {this.state.click}</span>
         </Card.Body>
       </Card>
       <SelectedBeast title={this.props.title} src={this.props.image_url} description={this.props.description} showModal={this.state.showModal} closeModal={this.closeModal}

@@ -98,3 +98,12 @@ Start time: 2pm
 Finish time: 4pm
 
 Actual time needed to complete: 2 houer
+
+## feature [4] use a select to filter image
+Estimate of time needed to complete: 2 houer
+
+Start time: 2pm
+
+Finish time: 1pm
+
+Actual time needed to complete: 1 houer
