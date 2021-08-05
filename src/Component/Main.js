@@ -31,18 +31,19 @@ class Main extends React.Component {
     return (
       <div>
 
-
-        <p>Pick your favorite Horns:</p>
+        <div style={{display:"flex",margin:"2rem",alignContent: 'stretch',
+    alignItems: 'center',
+    justifyContent: 'center'}}>
+        <h3>Pick your favorite Horns:</h3>
         
-        <Form.Select aria-label="Default select example" value={this.state.value} onChange={this.handleChange}>
-          <option>Open this select menu</option>
+        <Form.Select style={{width:"20rem"}} aria-label="Default select example" value={this.state.value} onChange={this.handleChange}>
           <option value="all">All</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="100">100</option>
         </Form.Select>
-
+        </div>
         <Container fluid>
           <Row>
 

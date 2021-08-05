@@ -37,7 +37,7 @@ import { Card,Button} from 'react-bootstrap'
       
    
         <>
-        <Card style={{ width: '18rem' ,border:'2px dashed red',alignItems:'center',height:'70vh',margin:'1rem '}}>
+        <Card style={{ width: '18rem' ,alignItems:'center',height:'30rem',margin:'1rem '}}>
         <Card.Img style={{ width: '16rem',height:'40vh' }} 
         variant="top" src={this.props.image_url}
          alt={this.props.title} onClick={()=>this.openModal()}/>
