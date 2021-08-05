@@ -48,7 +48,7 @@ class Main extends React.Component {
           <Row>
 
             {arryBeast.map(item => {
-              if (item.horns == this.state.value) {
+              if (item.horns === parseInt(this.state.value)) {
                 return (<Col>
                   <HornedBeasts
                     image_url={item.image_url}
@@ -57,7 +57,7 @@ class Main extends React.Component {
                     horns={item.horns}
                   />
                 </Col>)
-              } else if (this.state.value == 'all') {
+              } else if (this.state.value === 'all') {
                 return (<Col>
                   <HornedBeasts
                     image_url={item.image_url}
@@ -67,7 +67,7 @@ class Main extends React.Component {
                   />
                 </Col>)
 
-              }
+              } 
 
             })}
 
